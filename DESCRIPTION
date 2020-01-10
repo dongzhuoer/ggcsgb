@@ -1,0 +1,29 @@
+Package: ggcsgb
+Type: Package
+Title: Add ChronoStratiGraphic Background to annotate ggtree
+Version: 0.4.0
+Authors@R: person("Zhuoer", "Dong", email = "dongzhuoer@mail.nankai.edu.cn", 
+    role = c("aut", "cre"))
+Description: refer to https://pkgdown.dongzhuoer.com/dongzhuoer/ggcsgb
+URL: https://pkgdown.dongzhuoer.com/dongzhuoer/ggcsgb, https://github.com/dongzhuoer/ggcsgb
+BugReports: https://github.com/dongzhuoer/ggcsgb/issues
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE, roclets=c('rd', 'collate', 'namespace'))
+SystemRequirements: gfortran (for ape which ggtree depends on)
+Imports: 
+    magrittr,
+    dplyr,
+    ggplot2,
+    ggtree,
+    plyr,
+    reshape2,
+    scales,
+    tibble
+Suggests:
+    prettydoc
+Remotes:
+    bioc::release/ggtree
+VignetteBuilder: knitr, rmarkdown

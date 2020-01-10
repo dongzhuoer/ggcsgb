@@ -1,0 +1,116 @@
+Eon,Era,Period,Epoch,Age,begin,age_color,begin_raw
+Phanerozoic,Cenozoic,Quaternary,Holocene,,0.0117,fef3ef,0.0117
+Phanerozoic,Cenozoic,Quaternary,Pleistocene,Upper,0.126,fef2da,0.126
+Phanerozoic,Cenozoic,Quaternary,Pleistocene,Middle,0.781,fff1d0,0.781
+Phanerozoic,Cenozoic,Quaternary,Pleistocene,Calabrian,1.8,feefc6,1.8
+Phanerozoic,Cenozoic,Quaternary,Pleistocene,Gelasian,2.58,feefb4,2.58
+Phanerozoic,Cenozoic,Neogene,Pliocene,Piacenzian,3.6,fffbcb,3.6
+Phanerozoic,Cenozoic,Neogene,Pliocene,Zanclean,5.333,fffbc3,5.333
+Phanerozoic,Cenozoic,Neogene,Miocene,Messinian,7.246,fff88e,7.246
+Phanerozoic,Cenozoic,Neogene,Miocene,Tortonian,11.63,fff683,11.63
+Phanerozoic,Cenozoic,Neogene,Miocene,Serravallian,13.82,fef677,13.82
+Phanerozoic,Cenozoic,Neogene,Miocene,Langhian,15.97,fef671,15.97
+Phanerozoic,Cenozoic,Neogene,Miocene,Burdigalian,20.44,fff55f,20.44
+Phanerozoic,Cenozoic,Neogene,Miocene,Aquitanian,23.03,fff44d,23.03
+Phanerozoic,Cenozoic,Paleogene,Oligocene,Chattian,27.82,ffe5ba,27.82
+Phanerozoic,Cenozoic,Paleogene,Oligocene,Rupelian,33.9,ffdbab,33.9
+Phanerozoic,Cenozoic,Paleogene,Eocene,Priabonian,37.8,fdd0b1,37.8
+Phanerozoic,Cenozoic,Paleogene,Eocene,Bartonian,41.2,fcc8a3,41.2
+Phanerozoic,Cenozoic,Paleogene,Eocene,Lutetian,47.8,fabf97,47.8
+Phanerozoic,Cenozoic,Paleogene,Eocene,Ypresian,56,fbb38b,56
+Phanerozoic,Cenozoic,Paleogene,Paleocene,Thanetian,59.2,fec689,59.2
+Phanerozoic,Cenozoic,Paleogene,Paleocene,Selandian,61.6,fcc680,61.6
+Phanerozoic,Cenozoic,Paleogene,Paleocene,Danian,66,fdbd80,66
+Phanerozoic,Mesozoic,Cretaceous,Upper,Maastrichtian,72.1,f4f3a3,72.1 ±0.2
+Phanerozoic,Mesozoic,Cretaceous,Upper,Campanian,83.6,e9ee9a,83.6 ±0.2
+Phanerozoic,Mesozoic,Cretaceous,Upper,Santonian,86.3,dee691,86.3 ±0.5
+Phanerozoic,Mesozoic,Cretaceous,Upper,Coniacian,89.8,d3e488,89.8 ±0.3
+Phanerozoic,Mesozoic,Cretaceous,Upper,Turonian,93.9,c6de7e,93.9
+Phanerozoic,Mesozoic,Cretaceous,Upper,Cenomanian,100.5,bbd977,100.5
+Phanerozoic,Mesozoic,Cretaceous,Lower,Albian,113,cfe6b0,~ 113.0
+Phanerozoic,Mesozoic,Cretaceous,Lower,Aptian,125,c2e0a4,~ 125.0
+Phanerozoic,Mesozoic,Cretaceous,Lower,Barremian,129.4,b9dc9c,~ 129.4
+Phanerozoic,Mesozoic,Cretaceous,Lower,Hauterivian,132.9,abd593,~ 132.9
+Phanerozoic,Mesozoic,Cretaceous,Lower,Valanginian,139.8,9fd18c,~ 139.8
+Phanerozoic,Mesozoic,Cretaceous,Lower,Berriasian,145,93cd83,~ 145.0
+Phanerozoic,Mesozoic,Jurassic,Upper,Tithonian,152.1,d4f0fc,152.1 ±0.9
+Phanerozoic,Mesozoic,Jurassic,Upper,Kimmeridgian,157.3,c7eafd,157.3 ±1.0
+Phanerozoic,Mesozoic,Jurassic,Upper,Oxfordian,163.5,bae4fa,163.5 ±1.0
+Phanerozoic,Mesozoic,Jurassic,Middle,Callovian,166.1,bae4f2,166.1 ±1.2
+Phanerozoic,Mesozoic,Jurassic,Middle,Bathonian,168.3,afe0f1,168.3 ±1.3
+Phanerozoic,Mesozoic,Jurassic,Middle,Bajocian,170.3,a1daee,170.3 ±1.4
+Phanerozoic,Mesozoic,Jurassic,Middle,Aalenian,174.1,91d8ee,174.1 ±1.0
+Phanerozoic,Mesozoic,Jurassic,Lower,Toarcian,182.7,90cff2,182.7 ±0.7
+Phanerozoic,Mesozoic,Jurassic,Lower,Pliensbachian,190.8,73c6ee,190.8 ±1.0
+Phanerozoic,Mesozoic,Jurassic,Lower,Sinemurian,199.3,4ac0ee,199.3 ±0.3
+Phanerozoic,Mesozoic,Jurassic,Lower,Hettangian,201.3,17b8ee,201.3 ±0.2
+Phanerozoic,Mesozoic,Triassic,Upper,Rhaetian,208.5,e0c4dd,~ 208.5
+Phanerozoic,Mesozoic,Triassic,Upper,Norian,227,d3b6d5,~ 227
+Phanerozoic,Mesozoic,Triassic,Upper,Carnian,237,c6aad2,~ 237
+Phanerozoic,Mesozoic,Triassic,Middle,Ladinian,242,c897c6,~ 242
+Phanerozoic,Mesozoic,Triassic,Middle,Anisian,247.2,be8cc1,247.2
+Phanerozoic,Mesozoic,Triassic,Lower,Olenekian,251.2,b672af,251.2
+Phanerozoic,Mesozoic,Triassic,Lower,Induan,251.902,aa69ad,251.902 ±0.024
+Phanerozoic,Paleozoic,Permian,Lopingian,Changhsingian,254.14,fac9bb,254.14 ±0.07
+Phanerozoic,Paleozoic,Permian,Lopingian,Wuchiapingian,259.1,f9c0af,259.1 ±0.5
+Phanerozoic,Paleozoic,Permian,Guadalupian,Capitanian,265.1,f8ae95,265.1 ±0.4
+Phanerozoic,Paleozoic,Permian,Guadalupian,Wordian,268.8,f69f8b,268.8 ±0.5
+Phanerozoic,Paleozoic,Permian,Guadalupian,Roadian,272.95,f79781,272.95 ±0.11
+Phanerozoic,Paleozoic,Permian,Cisuralian,Kungurian,283.5,e09b8c,283.5 ±0.6
+Phanerozoic,Paleozoic,Permian,Cisuralian,Artinskian,290.1,e19281,290.1 ±0.26
+Phanerozoic,Paleozoic,Permian,Cisuralian,Sakmarian,295,e08978,295.0 ±0.18
+Phanerozoic,Paleozoic,Permian,Cisuralian,Asselian,298.9,e07f6c,298.9 ±0.15
+Phanerozoic,Paleozoic,Carboniferous,Pennsylvanian Upper,Gzhelian,303.7,bcd2d0,303.7 ±0.1
+Phanerozoic,Paleozoic,Carboniferous,Pennsylvanian Upper,Kasimovian,307,bed0d0,307.0 ±0.1
+Phanerozoic,Paleozoic,Carboniferous,Pennsylvanian Middle,Moscovian,315.2,b4cdca,315.2 ±0.2
+Phanerozoic,Paleozoic,Carboniferous,Pennsylvanian Lower,Bashkirian,323.2,98c3c9,323.2 ±0.4
+Phanerozoic,Paleozoic,Carboniferous,Mississippian Upper,Serpukhovian,330.9,c3c48a,330.9 ±0.2
+Phanerozoic,Paleozoic,Carboniferous,Mississippian Middle,Visean,346.7,acbd89,346.7 ±0.4
+Phanerozoic,Paleozoic,Carboniferous,Mississippian Lower,Tournaisian,358.9,96b58b,358.9 ±0.4
+Phanerozoic,Paleozoic,Devonian,Upper,Famennian,372.2,f2ebcf,372.2 ±1.6
+Phanerozoic,Paleozoic,Devonian,Upper,Frasnian,382.7,f2ebbf,382.7 ±1.6
+Phanerozoic,Paleozoic,Devonian,Middle,Givetian,387.7,f3e09e,387.7 ±0.8
+Phanerozoic,Paleozoic,Devonian,Middle,Eifelian,393.3,f2d392,393.3 ±1.2
+Phanerozoic,Paleozoic,Devonian,Lower,Emsian,407.6,e8d090,407.6 ±2.6
+Phanerozoic,Paleozoic,Devonian,Lower,Pragian,410.8,e8c686,410.8 ±2.8
+Phanerozoic,Paleozoic,Devonian,Lower,Lochkovian,419.2,e5bc7a,419.2 ±3.2
+Phanerozoic,Paleozoic,Silurian,Pridoli,,423,e6f2e8,423.0 ±2.3
+Phanerozoic,Paleozoic,Silurian,Ludlow,Ludfordian,425.6,d6ede7,425.6 ±0.9
+Phanerozoic,Paleozoic,Silurian,Ludlow,Gorstian,427.4,c9e9e6,427.4 ±0.5
+Phanerozoic,Paleozoic,Silurian,Wenlock,Homerian,430.5,cae8de,430.5 ±0.7
+Phanerozoic,Paleozoic,Silurian,Wenlock,Sheinwoodian,433.4,c0e2d4,433.4 ±0.8
+Phanerozoic,Paleozoic,Silurian,Llandovery,Telychian,438.5,bde5dd,438.5 ±1.1
+Phanerozoic,Paleozoic,Silurian,Llandovery,Aeronian,440.8,b1dfd2,440.8 ±1.2
+Phanerozoic,Paleozoic,Silurian,Llandovery,Rhuddanian,443.8,a4d9c9,443.8 ±1.5
+Phanerozoic,Paleozoic,Ordovician,Upper,Hirnantian,445.2,a7d9c0,445.2 ±1.4
+Phanerozoic,Paleozoic,Ordovician,Upper,Katian,453,97d5c0,453.0 ±0.7
+Phanerozoic,Paleozoic,Ordovician,Upper,Sandbian,458.4,8dceae,458.4 ±0.9
+Phanerozoic,Paleozoic,Ordovician,Middle,Darriwilian,467.3,6dc8b7,467.3 ±1.1
+Phanerozoic,Paleozoic,Ordovician,Middle,Dapingian,470,60c3af,470.0 ±1.4
+Phanerozoic,Paleozoic,Ordovician,Lower,Floian,477.7,05b8a5,477.7 ±1.4
+Phanerozoic,Paleozoic,Ordovician,Lower,Tremadocian,485.4,04b69e,485.4 ±1.9
+Phanerozoic,Paleozoic,Cambrian,Furongian,Stage 10,489.5,e6f0d5,~ 489.5
+Phanerozoic,Paleozoic,Cambrian,Furongian,Jiangshanian,494,d9edca,~ 494
+Phanerozoic,Paleozoic,Cambrian,Furongian,Paibian,497,cce6bf,~ 497
+Phanerozoic,Paleozoic,Cambrian,Series 3,Guzhangian,500.5,ceddbc,~ 500.5
+Phanerozoic,Paleozoic,Cambrian,Series 3,Drumian,504.5,c1d7b3,~ 504.5
+Phanerozoic,Paleozoic,Cambrian,Series 3,Stage 5,509,b7d3ab,~ 509
+Phanerozoic,Paleozoic,Cambrian,Series 2,Stage 4,514,b7cba6,~ 514
+Phanerozoic,Paleozoic,Cambrian,Series 2,Stage 3,521,acc79e,~ 521
+Phanerozoic,Paleozoic,Cambrian,Terreneuvian,Stage 2,529,aebe9a,~ 529
+Phanerozoic,Paleozoic,Cambrian,Terreneuvian,Fortunian,541,a0ba93,541.0 ±1.0
+Precambrian Proterozoic,Neoproterozoic,Ediacaran,,,635,ffd58a,~ 635
+Precambrian Proterozoic,Neoproterozoic,Cryogenian,,,720,fdce7c,~ 720
+Precambrian Proterozoic,Neoproterozoic,Tonian,,,1000,fec470,1000
+Precambrian Proterozoic,Mesoproterozoic,Stenian,,,1200,ffdbab,1200
+Precambrian Proterozoic,Mesoproterozoic,Ectasian,,,1400,fcd19e,1400
+Precambrian Proterozoic,Mesoproterozoic,Calymmian,,,1600,fdc690,1600
+Precambrian Proterozoic,Paleoproterozoic,Statherian,,,1800,f68fac,1800
+Precambrian Proterozoic,Paleoproterozoic,Orosirian,,,2050,f286a0,2050
+Precambrian Proterozoic,Paleoproterozoic,Rhyacian,,,2300,f37b96,2300
+Precambrian Proterozoic,Paleoproterozoic,Siderian,,,2500,f1708c,2500
+Precambrian Archean,Neoarchean,,,,2800,f6b7ca,2800
+Precambrian Archean,Mesoarchean,,,,3200,f499b8,3200
+Precambrian Archean,Paleoarchean,,,,3600,f387b8,3600
+Precambrian Archean,Eoarchean,,,,4000,e33a95,4000
+Precambrian Hadean,,,,,4600,b51d8c,~ 4600

@@ -1,0 +1,15 @@
+destination: pkgdown
+url: https://pkgdown.dongzhuoer.com/dongzhuoer/ggcsgb
+
+authors:
+    Zhuoer Dong:
+        href: https://dongzhuoer.com
+
+template:
+    params:
+        bootswatch: cerulean
+
+
+
+
+

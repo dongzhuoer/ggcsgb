@@ -1,0 +1,56 @@
+---
+title: processing raw data to package data
+date: "`r Sys.Date()`"
+---
+
+```{r knitr-setup, include=FALSE}
+knitr::opts_knit$set(root.dir = here::here(''))
+```
+
+
+
+# clean
+
+```{r clean, include=FALSE}
+dir(here::here('data'), full.names = T) %>% file.remove()
+rm(list = ls(envir = globalenv(), all = T))
+```
+
+
+
+# Process raw data
+
+## Phanerozoic
+
+```{r Phanerozoic}
+remove_last.add_0 <- function(x) {
+	n <- length(x) - 1
+	c(0, x[1:n])
+}
+
+#" the first row should be "now", begin at 0 and is omitted
+
+chromostratigraphic_chart <-
+	readr::read_csv('data-raw/chromostratigraphic_chart.csv', T, 'cccccncc') %>%
+		dplyr::mutate(end = remove_last.add_0(begin));
+
+Phanerozoic <-
+	dplyr::filter(chromostratigraphic_chart, Eon == 'Phanerozoic')
+#%>%
+#		dplyr::mutate(Epoch = stringr::str_extract(Epoch, '\\w+$'))
+
+
+usethis::use_data(Phanerozoic, overwrite = T);
+```
+
+
+
+# Afterward
+
+```{r reinstall}
+devtools::test()     # test the new data
+roxygen2::roxygenize() # you may also have edited data documentation
+
+system('R CMD INSTALL --no-multiarch --with-keep.source .')
+devtools::reload()   # now you can use the new data in current R session 
+```

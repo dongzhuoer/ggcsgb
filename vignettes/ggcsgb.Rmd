@@ -1,0 +1,60 @@
+---
+title: "Introduction to ggcsgb"
+author: "Zhuoer Dong"
+date: "`r Sys.Date()`"
+output: prettydoc::html_pretty
+vignette: >
+  %\VignetteIndexEntry{Introduction to ggcsgb}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(fig.dim = c(12.5, 10), out.width = "100%")
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", message = FALSE)
+```
+
+```{r}
+library(magrittr)
+set.seed(2020)
+```
+
+# Quick start
+
+```{r}
+ape::rtree(100, br = rpois(100, 40)) %>% ggtree::ggtree() + 
+    ggcsgb::chrono_strati_arg() + 
+	ggcsgb::chrono_strati_bar() + 
+	ggcsgb::chrono_strati_axis() + 
+	ggcsgb::chrono_strati_label()
+```
+
+
+
+# Store parameters
+
+Unfortunately, you have to add `chrono_strati_arg()` first, which store some arguments.
+
+```{r}
+p <- ape::rtree(100, br = rpois(100, 40)) %>% ggtree::ggtree() + ggcsgb::chrono_strati_arg()
+```
+
+
+
+# Add layers
+
+Then you can add layers like normal `geom_`s ^[Actually they aren't, they have own parameters, and can only works with `ggtree()+chrono_strati_arg()`.] in any combination:
+
+- `chrono_strati_bar()` 
+- `chrono_strati_axis()` 
+- `chrono_strati_label()`
+
+```{r}
+p + ggcsgb::chrono_strati_bar() 
+p + ggcsgb::chrono_strati_axis() 
+p + ggcsgb::chrono_strati_label()
+p + ggcsgb::chrono_strati_bar()   + ggcsgb::chrono_strati_axis() 
+p + ggcsgb::chrono_strati_axis()  + ggcsgb::chrono_strati_label()
+p + ggcsgb::chrono_strati_label() + ggcsgb::chrono_strati_bar()
+p + ggcsgb::chrono_strati_bar()   + ggcsgb::chrono_strati_axis() + ggcsgb::chrono_strati_label() 
+```

@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^R-raw$
+^resource$
+^packrat/
+^\.Rprofile$
